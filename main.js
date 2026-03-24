@@ -37,18 +37,31 @@ fruits.forEach(fruit => {
 // const stockage = "Je cherche des bons outils pour le développement web";
 
 // EXERCICE 7: FILTRER LES NOMBRES POSITIFS ET NEGATIFS ////
-let nombres = [1, -5, 3, -9, 2, -7, 4, -2, 8, -3, 45, -65];
+let numbers = [1, -5, 3, -9, 2, -7, 4, -2, 8, -3, 45, -65];
 let positifs = [];
 let negatifs = [];
 
-nombres.forEach(nombre => {
-    if (nombre >= 0) {
-      positifs.push(nombre)    
+numbers.forEach(number => {
+    if (number >= 0) {
+      positifs.push(number)    
     }
 
-     if (nombre < 0) {
-         negatifs.push(nombre)      
+     if (number < 0) {
+         negatifs.push(number)      
     }   
 });
 console.log("positifs", positifs);
 console.log("négatifs", negatifs);
+
+// EXERCIE 8: TROUVER LE NOMBRE MAXIMUM ////
+let nombres = [1, 5, 3, 9, 2]
+let plusGrand = nombres[0]
+
+nombres.forEach(nombre => {
+     if (nombre > plusGrand) {
+        plusGrand = nombre;
+         }
+});   
+
+ console.log(plusGrand);
+       
