@@ -13,3 +13,11 @@ let nombre2 = 10;
 
 console.log(nombre1+nombre2);
 
+///// EXERCICE 3: AFFICHAGE D'UNE LISTE SIMPLE ///////
+
+let fruits = ["Pomme", "Banane", "Cerise"];
+
+fruits.forEach(fruit => {
+    console.log(fruit);  
+});
+
