@@ -29,3 +29,26 @@ fruits.forEach(fruit => {
     }  
  }
 
+//// EXERCICE 5: COMPTEUR DE VOYELLES ////
+
+
+//// EXERCICE 6: COMPTER LES LETTRES ////
+
+// const stockage = "Je cherche des bons outils pour le développement web";
+
+// EXERCICE 7: FILTRER LES NOMBRES POSITIFS ET NEGATIFS ////
+let nombres = [1, -5, 3, -9, 2, -7, 4, -2, 8, -3, 45, -65];
+let positifs = [];
+let negatifs = [];
+
+nombres.forEach(nombre => {
+    if (nombre >= 0) {
+      positifs.push(nombre)    
+    }
+
+     if (nombre < 0) {
+         negatifs.push(nombre)      
+    }   
+});
+console.log("positifs", positifs);
+console.log("négatifs", negatifs);
