@@ -64,4 +64,19 @@ nombres.forEach(nombre => {
 });   
 
  console.log(plusGrand);
-       
+
+ /// EXERCICE 9: INVERSER UNE CHAINE DE CARACTERE /////
+
+let message = "Vacances";
+let motInverse ="";
+
+// console.log(message.length);
+// console.log(message[message.length - 1]);
+
+ for (let index = message.length - 1; index >= 0; index--) {
+    // console.log(index);
+   //  console.log(message[index]);
+  motInverse = motInverse + message[index];
+    
+ }
+ console.log(motInverse);
