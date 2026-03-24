@@ -21,3 +21,11 @@ fruits.forEach(fruit => {
     console.log(fruit);  
 });
 
+// EXERCICE 4: AFFICHAGE DES NOMBRES PAIRS //////
+
+ for (let index = 1; index <= 20; index++) {
+    if (index % 2 === 0) {
+        console.log(index);
+    }  
+ }
+
